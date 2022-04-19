@@ -14,8 +14,8 @@ const menuBar = selecetElement('[role="menubar"]')
 navBtn.addEventListener("click", ()=>{
   const isExpanded = JSON.parse(navBtn.getAttribute("aria-expanded"))
   navBtn.setAttribute("aria-expanded", !isExpanded)
-  menuBar.classList.toggle("hidden")
-  menuBar.classList.toggle("flex")
+  menuBar.classList.toggle("-translate-x-full")
+  menuBar.classList.toggle("translate-x-0")
 })
 var swiper5 = new Swiper(".mySwiper5", {
         grabCursor: true,
