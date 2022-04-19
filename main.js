@@ -21,6 +21,7 @@ var swiper5 = new Swiper(".mySwiper5", {
         grabCursor: true,
         effect: "creative",
         autoplay: true,
+        loop: true,
         creativeEffect: {
           prev: {
             shadow: true,
