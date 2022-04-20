@@ -17,6 +17,8 @@ navBtn.addEventListener("click", ()=>{
   menuBar.classList.toggle("-translate-x-full")
   menuBar.classList.toggle("translate-x-0")
 })
+const date = selecetElement("#date")
+date.textContent = new Date().getFullYear()
 var swiper5 = new Swiper(".mySwiper5", {
         grabCursor: true,
         effect: "creative",
