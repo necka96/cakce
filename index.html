@@ -297,11 +297,40 @@
     <img src="./images/instra4.jpg.webp" class="w-full" alt="insta4">
   </div>
 </section>
-<footer>
+</main>
+<section aria-labelledby="contact" class="container mx-auto px-8 overflow-hidden">
+  <div class="flex flex-wrap justify-center gap-12 md:gap-6 lg:gap-20">
+    <div class="md:flex-1 md:max-w-sm relative  mt-4 md:mt-12 lg:mt-16 ">
+      <img src="./images/cake-form.jpg" class="mx-auto rounded-lg" alt="cake-form">
+    </div>
+    <form class="border-8 relative border-orange-400 p-6 rounded-lg grid gap-8 md:flex-1 md:max-w-lg my-4 md:my-12 lg:my-16 w-full" >
+      <h2 id="contact" class="text-3xl font-bold">Let's Chat</h2>
+      <div class="relative">
+        <input type="text" id="name" placeholder="Your Name" class="peer w-full placeholder-transparent border-4 border-orange-400 focus:ring-4  dark:focus:ring-offset-2 focus:border-orange-400 focus:ring-orange-400 focus:outline-none dark:bg-orange-400 dark:text-neutral-900">
+        <label for="name" class="text-neutral-500 transition-all text-sm font-bold uppercase absolute -top-10 left-2 translate-y-1/2  peer-placeholder-shown:left-4 peer-placeholder-shown:top-1 peer-placeholder-shown:text-neutral-900 peer-focus:-top-10 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300">Your name</label>
+      </div>
+        <div class="relative">
+          <input type="email" id="email" placeholder="Your Email"
+            class="peer w-full placeholder-transparent border-4 border-orange-400 focus:ring-4  dark:focus:ring-offset-2 focus:border-orange-400 focus:ring-orange-400 focus:outline-none dark:bg-orange-400 dark:text-neutral-900">
+          <label for="email"
+            class="text-neutral-500 transition-all text-sm font-bold uppercase absolute -top-10 left-2 translate-y-1/2  peer-placeholder-shown:left-4 peer-placeholder-shown:top-1 peer-placeholder-shown:text-neutral-900 peer-focus:-top-10 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300">Your
+            email</label>
+        </div>
+        <div class="relative">
+          <textarea name="content" id="content" cols="20" rows="5" class="peer w-full resize-none placeholder-transparent border-4 border-orange-400 focus:ring-4  dark:focus:ring-offset-2 focus:border-orange-400 focus:ring-orange-400 focus:outline-none dark:bg-orange-400 dark:text-neutral-900" placeholder="How can we help?"></textarea>
+          <label for="content" class="text-neutral-500 transition-all text-sm font-bold uppercase absolute -top-10 left-2 translate-y-1/2  peer-placeholder-shown:left-4 peer-placeholder-shown:top-1 peer-placeholder-shown:text-neutral-900 peer-focus:-top-10 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300">How can we help?</label>
+        </div>
+        <a role="menuitem"
+          class="text-black py-2 bg-orange-400 w-max hover:bg-orange-300 transition-colors  px-2 focus:outline-none focus-visible:ring-4 ring-white rounded-md ring-offset-4 ring-offset-[#060709] "
+          href="/">Sing Up</a>
+    </form>
+  </div>
+</section>
+<footer aria-labelledby="footer" class="text-center py-10 container mx-auto px-8">
   <div class="flex py-2 mt-4 md:flex-row flex-col items-center justify-between  w-ful ">
     <img class="mx-4" src="./images/index.png" alt="">
     <div class="flex items-center">
-      <a class=" mx-2 md:mx-4 text-xl"  href="/">Home</a>
+      <a class=" mx-2 md:mx-4 text-xl" href="/">Home</a>
       <a class=" mx-2 md:mx-4 text-xl" href="/">Cakes</a>
       <a class=" mx-2 md:mx-4 text-xl" href="/">About</a>
       <a class=" mx-2 md:mx-4 text-xl" href="/">Blog</a>
@@ -310,44 +339,47 @@
   </div>
   <div class="border-y border-gray-500 my-8  md:grid gap-4 md:grid-cols-2 lg:grid-cols-4 p-8">
     <div class="flex text-left mt-2  flex-col items-center justify-center lg:col-span-2 ">
-      <p class="text-lg">Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="text-lg">Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="grid grid-cols-2 lg:grid-cols-3 w-full gap-2 my-8  ">
-        <a class="inline-flex flex-wrap focus:outline-none  focus-visible:ring-4 ring-white ring-offset-4 ring-offset-[#060709] py-1 px-3  border border-white items-center "
-        href="/"><img src="./images/insta.png" class="mr-2" alt="">Instagram</a>
-        <a class="inline-flex flex-wrap  focus:outline-none  focus-visible:ring-4 ring-white ring-offset-4 ring-offset-[#060709] py-1 px-3  border border-white items-center "
-        href="/"><img src="./images/facebook.png" class="mr-2" alt="">Facebook</a>
-        <a class="inline-flex flex-wrap   focus:outline-none  focus-visible:ring-4 ring-white ring-offset-4 ring-offset-[#060709] py-1 px-3  border border-white items-center "
-        href="/"><img src="./images/twitter.png" class="mr-2" alt="">Twitter</a>
+        <a class="inline-flex flex-wrap focus:outline-none  focus-visible:ring-4 ring-white ring-offset-4 ring-offset-[#060709] py-1 px-3  border border-orange-400 items-center "
+          href="/"><img src="./images/insta.png" class="mr-2" alt="">Instagram</a>
+        <a class="inline-flex flex-wrap  focus:outline-none  focus-visible:ring-4 ring-white ring-offset-4 ring-offset-[#060709] py-1 px-3  border border-orange-400 items-center "
+          href="/"><img src="./images/facebook.png" class="mr-2" alt="">Facebook</a>
+        <a class="inline-flex flex-wrap   focus:outline-none  focus-visible:ring-4 ring-white ring-offset-4 ring-offset-[#060709] py-1 px-3  border border-orange-400 items-center "
+          href="/"><img src="./images/twitter.png" class="mr-2" alt="">Twitter</a>
       </div>
     </div>
-    
-      <div class="flex items-center justify-center flex-col my-4">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-black  dark:text-white" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd"
-            d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-            clip-rule="evenodd" />
-        </svg>
-        <h3 class="text-2xl text-orange-400">Location</h3>
-        <p class="text-lg">4736 Poe Lane, HOT SPRINGS, Montana-59845</p>
-      </div>
-      <div class="flex items-center justify-center flex-col my-4">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-black dark:text-white" viewBox="0 0 20 20" fill="currentColor">
+
+    <div class="flex items-center justify-center flex-col my-4">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-black  dark:text-white" viewBox="0 0 20 20"
+        fill="currentColor">
+        <path fill-rule="evenodd"
+          d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+          clip-rule="evenodd" />
+      </svg>
+      <h3 class="text-2xl text-orange-400">Location</h3>
+      <p class="text-lg">4736 Poe Lane, HOT SPRINGS, Montana-59845</p>
+    </div>
+    <div class="flex items-center justify-center flex-col my-4">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-black dark:text-white" viewBox="0 0 20 20"
+        fill="currentColor">
         <path
           d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
       </svg>
-        <h3 class="text-2xl text-orange-400">Contact</h3>
-        <p class="text-lg">913-473-7000 contact@cakeshop.com</p>
-      </div>
-    
+      <h3 class="text-2xl text-orange-400">Contact</h3>
+      <p class="text-lg">913-473-7000 contact@cakeshop.com</p>
+    </div>
+
   </div>
-  <p >Copyright ©<span id="date"></span>  All rights reserved | This template is made with <span><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block text-orange-400" viewBox="0 0 20 20" fill="currentColor">
-    <path fill-rule="evenodd"
-      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-      clip-rule="evenodd" />
-  </svg></span> by <a href="/" class="inline text-orange-400">Nemanja Djordjevic</a></p>
+  <p>Copyright ©<span id="date"></span> All rights reserved | This template is made with <span><svg
+        xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block text-orange-400" viewBox="0 0 20 20"
+        fill="currentColor">
+        <path fill-rule="evenodd"
+          d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+          clip-rule="evenodd" />
+      </svg></span> by <a href="/" class="inline text-orange-400">Nemanja Djordjevic</a></p>
 </footer>
-    </main>
-        
     <script type="module" src="/main.js"></script>
   </body>
 </html>
